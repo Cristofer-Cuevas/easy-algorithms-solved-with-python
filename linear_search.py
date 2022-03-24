@@ -19,7 +19,7 @@ def recursive_linear_search(numbers, target, index):
 		return index
 	else:
 		index += 1
-		return recursive_linear_search(numbers, target, index)
+	return recursive_linear_search(numbers, target, index)
 
 
 print(recursive_linear_search(numbers, 7, index = 0))
