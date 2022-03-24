@@ -16,10 +16,7 @@ def binary_search(numbers, target):
 
 numbers = [x for x in range(1, 11)]
 
-# print(numbers)
-
 binary_search(numbers, 5)
-
 
 # Recursive implementation
 def recursive_binary_search(numbers, target):
